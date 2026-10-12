@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Optional: Large raw binaries (keep sample CSV and images tracked for proof!)
+*.pkl
