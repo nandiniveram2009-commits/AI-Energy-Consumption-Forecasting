@@ -202,21 +202,7 @@ carbon_emissions_reduced_kg: 14,200.00
 
 ---
 
-## 🖼️ 10. Screenshots & Visual Outputs
 
-All charts are automatically generated at `150 DPI` and saved to the `images/` directory when running `python main.py`:
-
-### 1. Actual vs. AI Predicted Demand (120-Hour Horizon)
-![Actual vs Predicted Energy Demand](images/actual_vs_predicted.png)
-*Demonstrates tight tracking across morning ramps, afternoon thermal plateaus, and steep evening peaks.*
-
-### 2. Top 10 Predictive Features Driving Energy Demand
-![Feature Importance Ranking](images/feature_importance.png)
-*Confirms that `lag_1h`, `hour`, `lag_24h`, and `temperature_c` contribute over 85% of the model's predictive power.*
-
-### 3. Regression Calibration Scatter Plot (Actual vs. Predicted)
-![Regression Calibration Scatter](images/regression_calibration_scatter.png)
-*Points cluster tightly along the 1:1 ideal diagonal from 250 kW base load up to 750+ kW peak demand.*
 
 ---
 
